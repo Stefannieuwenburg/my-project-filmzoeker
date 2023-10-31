@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film Zoeker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <script defer type="text/javascript" src="javascript/movies.js"></script>
+    <script defer type="text/javascript" src="javascript/script.js"></script>
+  </head>
+  <body>
+    <header class="header">Film Zoeker</header>
+    <!--this is a comment. Opd html indeling-->
+    <nav class="containerButton">
+      <li>
+        <input type="radio" id="latestMovies" name="filmFilter" value="latest"/>
+        <label for="latestMovies">Nieuwste films</label>
+      </li>
+      <li>
+        <input type="radio" id="avengers" name="filmFilter" value="avengers"/>
+        <label for="avengers">Avengers</label>
+      </li>
+      <li>
+        <input type="radio" id="x-men" name="filmFilter" value="x-men"/>
+        <label for="x-men">X-men</label>
+      </li>
+      <li>
+        <input type="radio" id="princess" name="filmFilter" value="princess"/>
+        <label for="princess">Princess</label>
+      </li>
+      <li>
+        <input type="radio" id="batman" name="filmFilter" value="batman"/>
+        <label for="batman">Batman</label>
+      </li>
+    </nav>
+    <main>
+      <ul id="imdbMovies"></ul>
+    </main>
+    <footer class="footer">
+      copyricht Stefan Nieuwenburg
+    </footer>
+  </body>
+</html>

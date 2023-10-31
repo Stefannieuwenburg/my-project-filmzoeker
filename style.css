@@ -1,0 +1,55 @@
+#imdbMovies {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  #imdbMovies {
+    flex-flow: row wrap;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.header {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.containerButton li {
+  display: inline-block;
+  padding: 30px;
+}
+
+.containerButton{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding: 10px,10px;
+  font-family: "Roboto", sans-serif;
+}
